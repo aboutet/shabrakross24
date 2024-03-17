@@ -1,0 +1,97 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: 'https://aboutet.github.io'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: /shabrakross24
+
+# Title of the Site
+title: ShabraKross 2024
+# Description of the Site
+description: Kourse endiablée et déguisée dans la combe à Marion !
+# URL of Image of the Site
+site-image: 
+# Keywords of the Site
+site-keywords: 
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://aboutet.github.io/shabrakross24/assets/images/shabrakross2.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: antoine.boutet@gmail.com
+#facebook_username: thedevslot
+#twitter_username: thedevslot
+#instagram_username: thedevslot
+#linkedin_username: thedevslot
+#github_username:  thedevslot
+#youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+#reddit_username: /
+#behance_username: /
+#dribbble_username: /
+#spotify_username: /
+
+# Google Analytics
+#google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: aboutet
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# 60 Words About the Author
+author-about: Vous attendiez avec impatience l’événement festif de fin de saison des ShabraKs, on vous donne rendez-vous le samedi 6 avril pour notre mythique ShabraKross ! édition spéciale 20 ans de l’activité snowboard de randonnée du Club (les dénommés ShabraKs).<br><br>Alors rendez-vous au col des Aravis, pour une Kourse endiablée et déguisée en binôme (construction des binômes sur place pour ceux qui n'en ont pas) dans la combe à Marion ! <br><br>Viendez en split, en ski ou en raquette/snow, on accepte tout le monde ! <br><br>Au programme une Kourse endiablée, des épreuves surprises, de la bonne humeur, des lots à gagner et un barbeKue ! <br><br>Rassemblement à 8h pour un départ de la Kourse à 9h, fin de l'événement prévu vers 14h-15h.<br><br><b>Matériel requis</b> <br>- triptyque DVA/pelle/sonde<br>- instrument de glisse<br>- déguisement (en binôme si possible)<br><br><b>Tarifs par personne</b><br>- 20€ pour les adhérents CAF Annecy<br>- 26€ pour les non-adhérents CAF Annecy (comprend la licence découverte CAF pour la journée, +6€)<br>- 12€ pour le barbeKue uniquement<br><br><br>
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: #https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+#permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
